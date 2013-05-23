@@ -3,7 +3,7 @@ Contributors: Andi Dittrich
 Tags: syntax highlighting, javascript, code, coding, mootools, customizable, themes, css, html, php, js, xml, c, cpp, ruby, shell, java, python, sql
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: MIT X11-License
 License URI: http://opensource.org/licenses/MIT
 
