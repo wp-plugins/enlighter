@@ -70,7 +70,7 @@ Display multiple codes within a tab-pane. You can define a custom tab-pane title
 = Legacy Example =
 It's also possible to use the plugin with legacy shortcode
 
-	[enlighter language="js"]
+	[enlighter lang="js"]
 	window.addEvent('domready', function(){
 		// display string on console
 		console.info('Hello Enlighter');
