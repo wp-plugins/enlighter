@@ -151,6 +151,7 @@ Well..write a email to Andi Dittrich (andi DOT dittrich AT a3non DOT org) or ope
 5. Theme Customizer - General styles
 6. Theme Customizer - Language Token styling
 
+
 == Changelog ==
 
 = 1.2 =
