@@ -1,10 +1,10 @@
 === Enlighter - Customizable Syntax Highlighter ===
 Contributors: Andi Dittrich
-Tags: syntax highlighting, javascript, code, coding, sourcecode, mootools, jquery, customizable, visual editor, tinymce, themes, css, html, php, js, xml, c, cpp, ruby, shell, java, python, sql
+Tags: syntax highlighting, javascript, code, coding, sourcecode, mootools, jquery, customizable, visual editor, tinymce, themes, css, html, php, js, xml, c, cpp, c#, ruby, shell, java, python, sql
 Donate link: http://andidittrich.de/go/enlighterjs
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 2.0
+Stable tag: 2.1
 License: MIT X11-License
 License URI: http://opensource.org/licenses/MIT
 
@@ -15,7 +15,7 @@ Simple post syntax-highlighted code using the EnlighterJS MooTools Plugin.
 Enlighter is a free, easy-to-use, syntax highlighting tool for WordPress. It's build in PHP and uses the MooTools(Javascript) based [EnlighterJS](http://andidittrich.de/go/enlighterjs) to provide a beautiful code-appearance.
 Using it can be as simple as selecting an editor style or adding shortcode around your scripts which you want to highlight and Enlighter takes care of the rest. An easy to use Theme-Customizer is included to modify the build-in themes **without any css knowlegde!**
 It also supports the automatic creation of tab-panes to display code-groups together (useful for multi-language examples - e.g. html+css+js)
-A theme demo can be found [here](http://static.andidittrich.de/EnlighterJS/Demo.html "EnligherJS Theme Demo")
+A theme demo can be found [here](http://enlighterjs.andidittrich.de/Themes.html "EnligherJS Theme Demo")
 
 = Plugin Features =
 * Support for all common used languages
@@ -112,7 +112,7 @@ It's also possible to use the plugin with legacy shortcode (disabled language sh
 * **HTML** [html]
 * **CSS** (Level 1, 2, 3) [css]
 * **XML** [xml]
-* **Javascript** [js]
+* **Javascript** [js, javascript]
 * **Java** [java]
 * **Markdown** [md]
 * **PHP** [php]
@@ -121,9 +121,11 @@ It's also possible to use the plugin with legacy shortcode (disabled language sh
 * **Shellscript** [shell]
 * **C** [c]
 * **C++** [cpp]
+* **C#** [csharp]
 * **SQL** [sql]
 * **NSIS** [nsis]
 * **RAW Code** [raw]
+* **Unhighlighted Code** [no-highlight]
 
 = Available Translations (I18n) =
 * **English** (default)
@@ -131,7 +133,7 @@ It's also possible to use the plugin with legacy shortcode (disabled language sh
 * **Serbo-Croatian** (sr_RS by Borisa Djuraskovic from webhostinghub.com)
  
 = Related Links =
-* Enlighter Plugin on [GitHub](https://github.com/AndiDittrich/WordPress.Enlighter)
+* [Enlighter Plugin on GitHub](https://github.com/AndiDittrich/WordPress.Enlighter)
 * [EnlighterJS Documentation](http://andidittrich.de/go/enlighters)
 
 == Compatibility ==
@@ -204,6 +206,11 @@ Write a message to Andi Dittrich (andi DOT dittrich AT a3non DOT O R G) or open 
 8. Tab-Pane Example (multiple languages)
 
 == Changelog ==
+
+= 2.1 =
+* Added EnlighterJS 2.2
+* Added language support for C# (csharp) [provided by Joshua Maag](https://github.com/joshmaag)
+* Bugfix: Indentation of first line got lost - thanks to [cdonts](http://wordpress.org/support/topic/no-indentation-in-the-first-line?replies=2)
 
 = 2.0 =
 * Added EnlighterJS 2.1
