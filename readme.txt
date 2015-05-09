@@ -3,7 +3,7 @@ Contributors: Andi Dittrich
 Tags: syntax highlighting, javascript, code, coding, sourcecode, mootools, jquery, customizable, visual editor, tinymce, themes, css, html, php, js, xml, c, cpp, c#, ruby, shell, java, python, sql
 Donate link: http://andidittrich.de/go/enlighterjs
 Requires at least: 3.9
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 2.5
 License: MIT X11-License
 License URI: http://opensource.org/licenses/MIT
